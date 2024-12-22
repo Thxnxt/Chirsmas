@@ -18,9 +18,6 @@ app.get('/greet/:name', (req, res) => {
     res.render('index', { name: userName });
 });
  
-app.get('/about', (req, res) => {
-    res.send('This is the About page');
-});
 
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
