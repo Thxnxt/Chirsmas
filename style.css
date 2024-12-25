@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-fresh {
+    background-image: url('image/fresh2.jpg'); /* พื้นหลังรูปแรก */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.box {
+    background-color: rgba(255, 255, 255, 0.5); /* สีขาวโปร่งแสง */
+    padding: 20px;
+    border-radius: 10px; /* มุมโค้งมน */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* เงา */
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    border-radius: 5px; /* มุมโค้งของรูป */
+}
+
+.btn-success {
+    background-color: #5d06ff; /* Custom color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+}
+
+.btn-success:hover {
+    background-color: #8c6baa; /* Darker color on hover */
+    color: rgb(0, 0, 0);
+}
